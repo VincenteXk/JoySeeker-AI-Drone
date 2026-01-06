@@ -1,5 +1,7 @@
 # JoySeeker-AI-Drone
 
+English | [中文](./README.md)
+
 An AI-powered drone system that automatically captures joyful moments by tracking smiles through lightweight vision models and offline voice control.
 
 ## Project Overview
