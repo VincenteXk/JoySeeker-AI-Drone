@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./joyseeker-banner.svg" alt="JoySeeker Banner" width="800"/>
+  <img src="./joyseeker-banner.png" alt="JoySeeker Banner" width="800"/>
 </p>
 
 # JoySeeker-AI-Drone
