@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./joyseeker-banner.svg" alt="JoySeeker Banner" width="800"/>
+</p>
 # JoySeeker-AI-Drone
 
 [English](./README_EN.md) | 中文

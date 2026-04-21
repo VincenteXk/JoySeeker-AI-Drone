@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2b2a"/>
+      <stop offset="100%" stop-color="#1a4a48"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4a8"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="textg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0f5ef"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" rx="16" fill="url(#bg)"/>
+
+  <!-- Decorative scan rings -->
+  <circle cx="120" cy="100" r="55" fill="none" stroke="#2dd4a8" stroke-width="1" opacity="0.15"/>
+  <circle cx="120" cy="100" r="40" fill="none" stroke="#2dd4a8" stroke-width="1" opacity="0.25"/>
+  <circle cx="120" cy="100" r="25" fill="none" stroke="#2dd4a8" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Drone icon -->
+  <g transform="translate(120,92)">
+    <!-- Body -->
+    <rect x="-22" y="-6" width="44" height="14" rx="7" fill="#2dd4a8" opacity="0.5" stroke="#2dd4a8" stroke-width="1.5"/>
+    <!-- Props -->
+    <ellipse cx="-18" cy="-10" rx="14" ry="3" fill="#2dd4a8" opacity="0.35"/>
+    <ellipse cx="18" cy="-10" rx="14" ry="3" fill="#2dd4a8" opacity="0.35"/>
+    <!-- Arms -->
+    <line x1="-16" y1="-6" x2="-18" y2="-10" stroke="#2dd4a8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="16" y1="-6" x2="18" y2="-10" stroke="#2dd4a8" stroke-width="1.5" opacity="0.5"/>
+    <!-- Camera dot -->
+    <circle cx="0" cy="2" r="3" fill="#38ef7d" opacity="0.8"/>
+  </g>
+
+  <!-- Smile target -->
+  <circle cx="155" cy="125" r="10" fill="none" stroke="#2dd4a8" stroke-width="1.5" opacity="0.5"/>
+  <text x="155" y="129" text-anchor="middle" font-size="11" fill="#2dd4a8" opacity="0.7">😊</text>
+
+  <circle cx="85" cy="130" r="8" fill="none" stroke="#2dd4a8" stroke-width="1" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="210" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="url(#textg)" letter-spacing="-0.5">
+    JoySeeker
+  </text>
+
+  <!-- Subtitle -->
+  <text x="212" y="116" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#2dd4a8" letter-spacing="3" opacity="0.9">
+    AI-POWERED DRONE PHOTOGRAPHY
+  </text>
+
+  <!-- Description -->
+  <text x="212" y="145" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#a0c8c0" opacity="0.7">
+    智能笑容追踪 · 自动构图抓拍 · 离线语音控制
+  </text>
+
+  <!-- Tech badges -->
+  <g transform="translate(212, 158)">
+    <rect x="0" y="0" width="90" height="22" rx="4" fill="#2dd4a8" opacity="0.12" stroke="#2dd4a8" stroke-width="0.8" opacity="0.3"/>
+    <text x="45" y="15" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="10" fill="#2dd4a8" opacity="0.8">MobileNetV3</text>
+
+    <rect x="100" y="0" width="55" height="22" rx="4" fill="#2dd4a8" opacity="0.12" stroke="#2dd4a8" stroke-width="0.8" opacity="0.3"/>
+    <text x="127" y="15" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="10" fill="#2dd4a8" opacity="0.8">Vosk</text>
+
+    <rect x="165" y="0" width="80" height="22" rx="4" fill="#2dd4a8" opacity="0.12" stroke="#2dd4a8" stroke-width="0.8" opacity="0.3"/>
+    <text x="205" y="15" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="10" fill="#2dd4a8" opacity="0.8">DJI Tello</text>
+
+    <rect x="255" y="0" width="68" height="22" rx="4" fill="#2dd4a8" opacity="0.12" stroke="#2dd4a8" stroke-width="0.8" opacity="0.3"/>
+    <text x="289" y="15" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="10" fill="#2dd4a8" opacity="0.8">Python</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="720" cy="40" r="2" fill="#2dd4a8" opacity="0.2"/>
+  <circle cx="740" cy="55" r="1.5" fill="#2dd4a8" opacity="0.15"/>
+  <circle cx="710" cy="65" r="1" fill="#2dd4a8" opacity="0.2"/>
+  <circle cx="750" cy="80" r="2.5" fill="#2dd4a8" opacity="0.1"/>
+  <circle cx="730" cy="140" r="1.5" fill="#2dd4a8" opacity="0.15"/>
+  <circle cx="760" cy="120" r="2" fill="#2dd4a8" opacity="0.12"/>
+</svg>
